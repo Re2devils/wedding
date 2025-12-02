@@ -740,9 +740,6 @@ img.heart-date {
   --color-muted: #eff4fa;
   --color-darklink: #7b8893;
   --color-lightgray: #f4f7fb;
-  --color-pink-cinelove: #ff8fa3;
-  --color-pink-cinelove-lighter: #ffb3c1;
-  --color-pink-cinelove-darker: #ff6b85;
 }
 .megamenu {
   transform: translateY(38px) !important;
@@ -816,19 +813,12 @@ img.heart-date {
 }
 .mobile-view #blessing-box,
 .mobile-view #blessing-box-popup,
-.mobile-view #cinelove-toolbar,
 .mobile-view #gift-list-drawer,
 .mobile-view .toolbar-toggle-button,
 .mobile-view .watermark {
   position: fixed !important;
 }
-.vertical-toolbar #cinelove-toolbar {
-  right: 0;
-  left: auto !important;
-  width: auto !important;
-  height: auto !important;
-  bottom: 0;
-}
+
 .vertical-toolbar .toolbar {
   flex-direction: column !important;
   height: auto !important;
@@ -5544,23 +5534,7 @@ input::placeholder {
 .font-preview:hover {
   background-color: rgba(0, 0, 0, 0.04);
 }
-.bg-pink-cinelove {
-  background-color: var(--color-pink-cinelove);
-}
-.bg-pink-cinelove-hover-darker,
-.bg-pink-cinelove-hover-lighter {
-  background-color: var(--color-pink-cinelove);
-  transition: background-color 0.2s;
-}
-.bg-pink-cinelove-hover-darker:hover {
-  background-color: var(--color-pink-cinelove-darker);
-}
-.bg-pink-cinelove-hover-lighter:hover {
-  background-color: var(--color-pink-cinelove-lighter);
-}
-.color-pink-cinelove {
-  color: var(--color-pink-cinelove);
-}
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 * {
   outline: none;

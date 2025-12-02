@@ -2828,7 +2828,7 @@
           });
         }, []);
         if (!p) return null;
-        var k = p.startsWith("mp3/")
+        var k = p.startsWith("media/")
           ? "".concat(c.A.CDN_MP3_URL, "/").concat(p)
           : "".concat(c.A.CDN_URL, "/").concat(p);
         return (0,
